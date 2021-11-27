@@ -1,10 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import HomePage from './pages/HomePage';
+import "./App.css";
+import { Fragment } from "react";
+import Routes from "./routes";
 
 function App() {
   return (
-    <HomePage />
+    <Fragment>
+      <Routes />
+    </Fragment>
   );
 }
 
